@@ -1,0 +1,26 @@
+{
+  "name": "koa_blog",
+  "version": "1.0.0",
+  "description": "koa(博客内容管理)系统\r hello,koa测试1111",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve":"nodemon node index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1661966346/koa_blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1661966346/koa_blog/issues"
+  },
+  "homepage": "https://github.com/1661966346/koa_blog#readme",
+  "dependencies": {
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
