@@ -1,5 +1,6 @@
 const app = require('./koa')
 const conf = require('./config')
+const db = require('./db/index')
 const bodyParser = require('koa-bodyparser')
 app.use(bodyParser())
 const views = require('koa-views')

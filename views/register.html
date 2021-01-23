@@ -47,7 +47,7 @@
         let emailCode = document.getElementById('email-code');
         let password = document.getElementById('password');
         
-        axios.post('/register', {
+        axios.post('/register/password', {
             email: email.value,
             emailCode: emailCode.value,
             password:password.value
